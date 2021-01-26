@@ -61,8 +61,8 @@ class SeatGeekAPIManager {
         ]
     }
     
-    public static func query(_ path: SeatGeekPath, completion: @escaping ([Event]?) -> Void) {
-        NetworkManager.shared.networkRequest(path.endpoint,
+    public static func queryEvents(completion: @escaping ([Event]?) -> Void) {
+        NetworkManager.shared.networkRequest(SeatGeekPath.events.endpoint,
                                              queryItems: queryItems,
                                              headers: headers) { data in
             guard let eventsDict = data["events"] as? [[String:Any]] else {

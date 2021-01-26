@@ -21,7 +21,7 @@ class SearchEventsTableViewController: UITableViewController {
         tableView.backgroundColor = .primaryBackground
         navigationItem.searchController = SearchController(delegate: self)
         
-        SeatGeekAPIManager.query(.events) { events in
+        SeatGeekAPIManager.queryEvents { events in
             guard let events = events else {
                 print("unable to load events in SearchEventsTableViewController")
                 return
