@@ -1,0 +1,24 @@
+PODS:
+  - AwesomeEnum (2.2.1)
+  - Kingfisher (6.0.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - AwesomeEnum
+  - Kingfisher (~> 6.0)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - AwesomeEnum
+    - Kingfisher
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AwesomeEnum: 9283d55c3d43eeb694168665609613df108662f8
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 2b45804b5906bd2d0cb80b9a0387784efef85242
+
+COCOAPODS: 1.10.1
